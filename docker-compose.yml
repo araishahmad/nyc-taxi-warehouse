@@ -1,5 +1,4 @@
 services:
-
   namenode:
     image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
     container_name: namenode
@@ -87,7 +86,20 @@ services:
       - HIVE_CORE_CONF_javax_jdo_option_ConnectionUserName=hive
       - HIVE_CORE_CONF_javax_jdo_option_ConnectionPassword=hive
 
+  superset:
+    image: apache/superset:2.1.0
+    container_name: superset
+    ports:
+      - 8088:8088
+    environment:
+      - SUPERSET_SECRET_KEY=supersecretkey123
+    depends_on:
+      - hive-server
+    volumes:
+      - superset_data:/app/superset_home
+
 volumes:
   hadoop_namenode:
   hadoop_datanode:
   hive_postgresql:
+  superset_data:
