@@ -1,0 +1,51 @@
+Zone,Borough,pickup_count,avg_fare
+JFK Airport,Queens,151653,60.69
+Upper East Side South,Manhattan,140982,12.35
+Upper East Side North,Manhattan,130755,13.13
+Midtown Center,Manhattan,128960,15.25
+Penn Station/Madison Sq West,Manhattan,104702,15.55
+Midtown East,Manhattan,100682,14.88
+Lincoln Square East,Manhattan,94820,13.6
+Times Sq/Theatre District,Manhattan,94079,17.36
+LaGuardia Airport,Queens,86621,41.48
+Murray Hill,Manhattan,83912,14.83
+Upper West Side South,Manhattan,81532,13.54
+Midtown North,Manhattan,81174,15.1
+Clinton East,Manhattan,78921,15.23
+Union Sq,Manhattan,77179,14.01
+Lenox Hill West,Manhattan,76468,12.82
+East Village,Manhattan,73118,15.09
+East Chelsea,Manhattan,71107,15.84
+Gramercy,Manhattan,64559,14.09
+West Village,Manhattan,63937,14.77
+Midtown South,Manhattan,63567,15.16
+Lenox Hill East,Manhattan,62847,14.71
+Yorkville West,Manhattan,62205,13.42
+Sutton Place/Turtle Bay North,Manhattan,59053,13.4
+Upper West Side North,Manhattan,58648,13.89
+Central Park,Manhattan,47281,14.37
+Garment District,Manhattan,46810,15.95
+Flatiron,Manhattan,46265,14.32
+West Chelsea/Hudson Yards,Manhattan,43656,15.38
+Yorkville East,Manhattan,40020,14.2
+Greenwich Village North,Manhattan,37918,14.38
+Greenwich Village South,Manhattan,37450,15.02
+N/A,Unknown,37314,27.23
+TriBeCa/Civic Center,Manhattan,36579,17.88
+UN/Turtle Bay South,Manhattan,35716,15.59
+Kips Bay,Manhattan,34603,14.1
+Lincoln Square West,Manhattan,31751,13.37
+Lower East Side,Manhattan,28622,17.17
+Manhattan Valley,Manhattan,23933,14.59
+Meatpacking/West Village West,Manhattan,22564,16.64
+Little Italy/NoLiTa,Manhattan,22302,16.11
+SoHo,Manhattan,19320,15.82
+East Harlem South,Manhattan,17541,14.52
+Clinton West,Manhattan,16713,14.9
+Battery Park City,Manhattan,14722,22.13
+Hudson Sq,Manhattan,13126,16.0
+Financial District North,Manhattan,12846,22.88
+East Elmhurst,Queens,12459,40.76
+Morningside Heights,Manhattan,12413,15.91
+World Trade Center,Manhattan,12091,22.82
+Bloomingdale,Manhattan,7782,15.36
