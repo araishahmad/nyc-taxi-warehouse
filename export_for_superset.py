@@ -28,7 +28,7 @@ trips.groupBy("hour_of_day") \
     .coalesce(1) \
     .write.mode("overwrite") \
     .option("header", "true") \
-    .csv("/tmp/superset_exports/trips_by_hour")
+    .csv("hdfs://namenode:9000/taxi/exports/trips_by_hour")
 
 # Dataset 2 — top pickup zones (joined with zone names)
 print("Exporting top pickup zones...")
@@ -43,7 +43,7 @@ trips.join(zones, trips.PULocationID == zones.LocationID) \
     .coalesce(1) \
     .write.mode("overwrite") \
     .option("header", "true") \
-    .csv("/tmp/superset_exports/top_pickup_zones")
+    .csv("hdfs://namenode:9000/taxi/exports/top_pickup_zones")
 
 # Dataset 3 — borough summary
 print("Exporting borough summary...")
@@ -58,7 +58,7 @@ trips.join(zones, trips.PULocationID == zones.LocationID) \
     .coalesce(1) \
     .write.mode("overwrite") \
     .option("header", "true") \
-    .csv("/tmp/superset_exports/borough_summary")
+    .csv("hdfs://namenode:9000/taxi/exports/borough_summary")
 
 print("All exports done.")
 spark.stop()
